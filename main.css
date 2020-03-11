@@ -1,35 +1,77 @@
-ul li{
-    list-style: none;
-    display: inline-block;
-}
-.logo{
-    display: inline-block;
-}
-.searchbox{
-    width: 600px;
-    display: inline-block;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: sticky;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #454544;
+  }
+  
+  input{
+  margin:14px;
+  border-radius:15px;
+  width:400%;
+  }
 
-.searchbox input{
-    width: 600px;
-    
-}
-.search-button, .keyboard{
-    float: right;
-    position: relative;
-    bottom: 25px;
-}
-.search-button{
-    bottom: 20px;
-}
-.keyboard{
-    bottom: 20px;
-}
-.right-nav{
-    float: right;
-    position: relative;
-    bottom: 100px;
-}
-.bottom-left, .bottom-right{
-    display: inline-block;
-}
+  input:hover{
+      border: rgb(0, 0, 1,);
+  }
+
+  img{
+      padding-right: 5px;
+      
+  }
+  hr{ 
+      opacity: 0.5;
+  }
+
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    width:600px;
+    margin-left:170px;
+  }
+  
+  .li {
+    float: left;
+  }
+  
+  .li a {
+    display: block;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .li a:hover:not(.active) {
+      background-color: white;
+    color: #0000fa;
+  }
+  #content{
+      margin-left: 170px;
+      position: static;
+  }
+
+  section{
+      padding-top: 30px;
+  }
