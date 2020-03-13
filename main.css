@@ -66,14 +66,17 @@ ul {
       background-color: white;
     color: #0000fa;
   }
+  .kkk{
+    color: #0000fa;
+    border-bottom: 2px solid blue;
+  }
   #content{
       margin-left: 170px;
       position: static;
   }
 
   section{
-      padding-top: 30px;
-      padding-bottom: 0;
+      padding-top: 20px;
   }
 
   h3{
